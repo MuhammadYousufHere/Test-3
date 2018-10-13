@@ -1,0 +1,103 @@
+/* write your CSS here */
+.logo {
+	width: 50px;
+	height: 50px;
+	padding: 0;
+}
+.nav-bar-title {
+	margin-left: 14px;
+}
+.heading {
+	text-transform: capitalize;
+	font-size: 1.2em;
+	margin: 0;
+
+}
+.description {
+	color: black;
+	font-size: .9em;
+	margin: 0;
+}
+.card-text-author, .card-text-book, .price{
+	color:#104b8b;
+}
+.book-image {
+	width: 142px;
+	height: 212px;
+}
+.button-position {
+	display: flex;
+	justify-content: flex-end;
+}
+.button-aera {
+	margin: 0;
+	border: 1px solid #00000036;
+	border-radius: 6px;
+	width: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text-book {
+	font-weight: 600;
+	font-size: smaller;
+}
+.card-text-price  {
+	color: green;
+	font-weight: bold;
+}
+.book-content {
+	margin-left: 12px;
+}
+.card-title {
+	text-transform: capitalize;
+	font-size: 1.35em;
+}
+.card-header {
+
+	background-color:#d1eefb;
+	text-align: center;
+	margin-top: 10px;
+	width: 885px;
+	min-width: 40%;
+}
+.card {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+.card-body {
+	display: flex;
+}
+@media only screen and (max-width: 700px) {
+    .button-position {
+        justify-content: flex-start;
+    }
+}
+.container, .total-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.total-amount {
+	color: #104b8b;
+}
+.total-box {
+
+}
+@media only screen and (max-width: 1200px) {
+    .card-header {
+        width: 745px;
+    }
+}
+@media only screen and (max-width: 988px) {
+    .card-header {
+        width: 545px;
+    }
+}
+@media only screen and (max-width: 765px) {
+    .card-header {
+        width: 410px;
+    }
+}
